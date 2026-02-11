@@ -1,6 +1,0 @@
-com/search/SearchEngineApplication.class
-com/search/entity/SearchRecord$SearchRecordBuilder.class
-com/search/controller/SearchController.class
-com/search/service/SearchRecordService.class
-com/search/entity/SearchRecord.class
-com/search/repository/SearchRecordRepository.class
