@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #fff;
+}
+
+/* 百度风格输入框 */
+.baidu-input {
+  @apply w-full h-12 pl-4 pr-12 text-lg border-2 border-gray-200 rounded-full outline-none focus:border-baidu-blue transition-colors;
+}
+
+/* 百度风格按钮 */
+.baidu-button {
+  @apply h-12 px-8 bg-baidu-blue text-white text-lg rounded-full border-none cursor-pointer transition-all hover:bg-blue-600;
+}
+
+/* 热门搜索标签 */
+.hot-tag {
+  @apply px-3 py-1 bg-gray-100 text-gray-700 rounded text-sm cursor-pointer transition-colors hover:bg-gray-200;
+}
+
+.hot-tag.active {
+  @apply bg-baidu-blue text-white;
+}
+
+/* 搜索建议 */
+.suggestion-item {
+  @apply px-4 py-2 cursor-pointer hover:bg-gray-100;
+}
+
+/* 趋势图表 */
+.trend-card {
+  @apply bg-white rounded-lg shadow p-4;
+}
